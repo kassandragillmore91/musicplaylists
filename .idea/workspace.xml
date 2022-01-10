@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b2a51e1d-6031-496e-aabf-94eb04ecfe59" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/activity/CreatePlaylistActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/activity/CreatePlaylistActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/converters/ModelConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/converters/ModelConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/dynamodb/PlaylistDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/dynamodb/PlaylistDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/dynamodb/models/Playlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/dynamodb/models/Playlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/documentation/APIGatewayLambdaSequenceDiagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/documentation/APIGatewayLambdaSequenceDiagram.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/documentation/AWSManagementConsole.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/documentation/CloudWatchConsoleLogGroups.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/documentation/CloudWatchConsoleLogStreams.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/documentation/CloudWatchConsoleLogs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/documentation/CloudWatchSearchAWSManagementConsole.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/documentation/ConduitAccountPage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/documentation/DynamoDBConsoleChangeToText.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/documentation/DynamoDBConsoleDashboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/documentation/DynamoDBConsolePasteJSON.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/documentation/DynamoDBConsolePlaylistTableCreateButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/documentation/DynamoDBConsolePlaylistTableItems.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/documentation/DynamoDBConsoleSuccessfulAdd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/documentation/DynamoDBConsoleTables.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/documentation/DynamoDBItemDelete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/documentation/DynamoDBSearchAWSManagementConsole.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tst/com/amazon/ata/music/playlist/service/activity/GetPlaylistActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tst/com/amazon/ata/music/playlist/service/activity/GetPlaylistActivityTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="UnitProject" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="UnitProject" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="21vHYpLqLuiydL4XPteBarXTOfE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/configurations" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4931003" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/configurations" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.amazon.ata.music.playlist.service.lambda" />
+      <recent name="com.amazon.ata.music.playlist.service.util" />
+      <recent name="com.amazon.ata.music.playlist.service.activity" />
+      <recent name="com.amazon.ata.music.playlist.service.helper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/configurations" />
+      <recent name="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/lambda" />
+      <recent name="$PROJECT_DIR$/tst/com/amazon/ata/music/playlist" />
+      <recent name="$PROJECT_DIR$/tst/com/amazon/ata/music/playlist/service" />
+      <recent name="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.MusicPlaylistService [buildZip]">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreatePlaylistActivityTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.amazon.ata.music.playlist.service.activity.CreatePlaylistActivityTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GetPlaylistActivityTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.amazon.ata.music.playlist.service.activity.GetPlaylistActivityTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MT1DesignClassDiagramIntrospectionTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.amazon.ata.music.playlist.service.tct.MT1DesignClassDiagramIntrospectionTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MusicPlaylistService [buildZip]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildZip" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PlaylistDaoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.amazon.ata.music.playlist.service.dynamodb.PlaylistDaoTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.MusicPlaylistService [buildZip]" />
+        <item itemvalue="Gradle.CreatePlaylistActivityTest" />
+        <item itemvalue="Gradle.GetPlaylistActivityTest" />
+        <item itemvalue="Gradle.MT1DesignClassDiagramIntrospectionTests" />
+        <item itemvalue="Gradle.PlaylistDaoTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2a51e1d-6031-496e-aabf-94eb04ecfe59" name="Default Changelist" comment="" />
+      <created>1638814690419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638814690419</updated>
+      <workItem from="1638814691446" duration="24804000" />
+      <workItem from="1639157554777" duration="2949000" />
+      <workItem from="1639417923132" duration="26686000" />
+      <workItem from="1640026510528" duration="1454000" />
+      <workItem from="1640028385831" duration="18769000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2262" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1640035761679">
+      <screen x="1536" y="25" width="1920" height="1055" />
+    </state>
+    <state x="2262" y="205" key="#com.intellij.ide.util.MemberChooser/1536.25.1920.1055/0.25.1536.935@1536.25.1920.1055" timestamp="1640035761679" />
+    <state x="1653" y="468" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1640031170816">
+      <screen x="1536" y="25" width="1920" height="1055" />
+    </state>
+    <state x="1653" y="468" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1536.25.1920.1055/0.25.1536.935@1536.25.1920.1055" timestamp="1640031170816" />
+    <state x="2168" y="244" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1640028405884">
+      <screen x="1536" y="25" width="1920" height="1055" />
+    </state>
+    <state x="2168" y="244" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1536.25.1920.1055/0.25.1536.935@1536.25.1920.1055" timestamp="1640028405884" />
+    <state width="1868" height="315" key="GridCell.Tab.0.bottom" timestamp="1640106026559">
+      <screen x="1536" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1484" height="272" key="GridCell.Tab.0.bottom/1536.25.1920.1055/0.25.1536.935@0.25.1536.935" timestamp="1639589695602" />
+    <state width="1868" height="315" key="GridCell.Tab.0.bottom/1536.25.1920.1055/0.25.1536.935@1536.25.1920.1055" timestamp="1640106026559" />
+    <state width="1868" height="315" key="GridCell.Tab.0.center" timestamp="1640106026558">
+      <screen x="1536" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1484" height="272" key="GridCell.Tab.0.center/1536.25.1920.1055/0.25.1536.935@0.25.1536.935" timestamp="1639589695602" />
+    <state width="1868" height="315" key="GridCell.Tab.0.center/1536.25.1920.1055/0.25.1536.935@1536.25.1920.1055" timestamp="1640106026558" />
+    <state width="1868" height="315" key="GridCell.Tab.0.left" timestamp="1640106026557">
+      <screen x="1536" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1484" height="272" key="GridCell.Tab.0.left/1536.25.1920.1055/0.25.1536.935@0.25.1536.935" timestamp="1639589695601" />
+    <state width="1868" height="315" key="GridCell.Tab.0.left/1536.25.1920.1055/0.25.1536.935@1536.25.1920.1055" timestamp="1640106026557" />
+    <state width="1868" height="315" key="GridCell.Tab.0.right" timestamp="1640106026558">
+      <screen x="1536" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1484" height="272" key="GridCell.Tab.0.right/1536.25.1920.1055/0.25.1536.935@0.25.1536.935" timestamp="1639589695602" />
+    <state width="1868" height="315" key="GridCell.Tab.0.right/1536.25.1920.1055/0.25.1536.935@1536.25.1920.1055" timestamp="1640106026558" />
+    <state x="1856" y="29" key="SettingsEditor" timestamp="1640038034395">
+      <screen x="1536" y="25" width="1920" height="1055" />
+    </state>
+    <state x="1856" y="29" key="SettingsEditor/1536.25.1920.1055/0.25.1536.935@1536.25.1920.1055" timestamp="1640038034395" />
+    <state x="0" y="25" width="1536" height="935" key="dock-window-1" timestamp="1640036953243">
+      <screen x="0" y="25" width="1536" height="935" />
+    </state>
+    <state x="0" y="25" width="1536" height="935" key="dock-window-1/1536.25.1920.1055/0.25.1536.935@1536.25.1920.1055" timestamp="1640036953243" />
+    <state x="2123" y="244" width="1136" height="616" key="find.popup" timestamp="1639598815639">
+      <screen x="1536" y="25" width="1920" height="1055" />
+    </state>
+    <state x="2123" y="244" width="1136" height="616" key="find.popup/1536.25.1920.1055/0.25.1536.935@1536.25.1920.1055" timestamp="1639598815639" />
+    <state x="2078" y="48" width="838" height="1032" key="search.everywhere.popup" timestamp="1639421803476">
+      <screen x="1536" y="25" width="1920" height="1055" />
+    </state>
+    <state x="2078" y="48" width="838" height="1032" key="search.everywhere.popup/1536.25.1920.1055/0.25.1536.935@1536.25.1920.1055" timestamp="1639421803476" />
+  </component>
+</project>

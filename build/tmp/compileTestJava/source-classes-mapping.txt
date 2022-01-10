@@ -1,0 +1,14 @@
+com/amazon/ata/music/playlist/service/tct/MT3IntrospectionTests.java
+ com.amazon.ata.music.playlist.service.tct.MT3IntrospectionTests
+com/amazon/ata/music/playlist/service/tct/MT1DesignClassDiagramIntrospectionTests.java
+ com.amazon.ata.music.playlist.service.tct.MT1DesignClassDiagramIntrospectionTests
+com/amazon/ata/music/playlist/service/tct/MT2DesignIntrospectionTests.java
+ com.amazon.ata.music.playlist.service.tct.MT2DesignIntrospectionTests
+com/amazon/ata/music/playlist/service/tct/MT2IntrospectionTests.java
+ com.amazon.ata.music.playlist.service.tct.MT2IntrospectionTests
+com/amazon/ata/music/playlist/service/tct/MT1DesignSequenceDiagramIntrospectionTests.java
+ com.amazon.ata.music.playlist.service.tct.MT1DesignSequenceDiagramIntrospectionTests
+com/amazon/ata/music/playlist/service/activity/CreatePlaylistActivityTest.java
+ com.amazon.ata.music.playlist.service.activity.CreatePlaylistActivityTest
+com/amazon/ata/music/playlist/service/activity/GetPlaylistActivityTest.java
+ com.amazon.ata.music.playlist.service.activity.GetPlaylistActivityTest

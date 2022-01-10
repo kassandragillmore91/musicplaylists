@@ -1,0 +1,57 @@
+@startuml
+
+actor "User" as user
+
+box HTTP #lightblue
+participant "terminal" as terminal
+participant "API Gateway" as apiGateway
+participant "Lambda" as lambda
+end box
+
+box Java #beige
+participant "Coral Framework" as coral
+participant "Service Code" as service
+end box
+
+user -> terminal: execute curl <ENDPOINT>/playlists/PPTO3 command
+activate terminal
+title APIGateway / Lambda Sequence
+
+terminal -> apiGateway: sends HTTP request
+activate apiGateway
+
+apiGateway -> apiGateway: parses URL and data, matches request to our defined API
+apiGateway -> apiGateway: converts the data to new HTTP request for Lambda
+apiGateway -> lambda: sends new HTTP request
+activate lambda
+
+lambda -> lambda: find an available computing instance
+lambda -> lambda: start a JVM with our deployed code
+lambda -> coral: call service's entry point method
+activate coral
+
+coral -> coral: instantiate correct Activity class based on the endpoint of the request
+coral -> coral: use the data to instantiate a defined Request class
+coral -> service: pass Request to Activity
+activate service
+
+group execute our implementation of Activity#handleRequest method
+service -> service: execute our written code
+end
+
+service --> coral : return Result from Activity#handleRequest method
+deactivate service
+coral --> lambda: return result from entry point method
+deactivate coral
+
+lambda --> apiGateway: return the result to API Gateway
+deactivate lambda
+
+apiGateway -> apiGateway: convert result to HTTP response
+apiGateway --> terminal: return HTTP response
+deactivate apiGateway
+
+terminal -> user : display result of HTTP request
+deactivate terminal
+
+@enduml
