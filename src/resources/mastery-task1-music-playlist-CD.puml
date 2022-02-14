@@ -1,1 +1,126 @@
 PARTICIPANTS: use this file for creating the class diagram in mastery task 01
+@startuml
+
+class AddSongToPlaylistActivity {
+    - log : Logger
+    - playlistDao : PlaylistDao
+    - albumTrackDao : AlbumTrackDao
+
+    + AddSongToPlaylistActivity(PlaylistDao playlistDao, AlbumTrackDao albumTrackDao)
+    + handleRequest(AddSongToPlaylistRequest addSongToPlaylistRequest, Context context) : AddSongToPlaylistResult
+}
+
+AddSongToPlaylistActivity ..|> RequestHandler
+
+class CreatePlaylistActivity {
+    - log : Logger
+    - playlistDao : PlaylistDao
+
+    + CreatePlaylistActivity(PlaylistDao playlistDao)
+    + handleRequest(CreatePlaylistRequest createPlaylistRequest, Context context) : CreatePlaylistResult
+}
+
+CreatePlaylistActivity ..|> RequestHandler
+
+class GetPlaylistActivity {
+    - log : Logger
+    - playlistDao : PlaylistDao
+
+    + GetPlaylistActivity(PlaylistDao playlistDao)
+    + handleRequest(GetPlaylistRequest getPlaylistRequest, Context context) : GetPlaylistResult
+}
+
+GetPlaylistActivity ..|> RequestHandler
+
+class GetPlaylistSongsActivity {
+    - log : Logger
+    - playlistDao : PlaylistDao
+
+    + GetPlaylistSongsActivity(PlaylistDao playlistDao)
+    + handleRequest(GetPlaylistSongsRequest getPlaylistSongsRequest, Context context) : GetPlaylistSongsResult
+}
+
+GetPlaylistSongsActivity ..|> RequestHandler
+
+class UpdatePlaylistActivity {
+    - log : Logger
+    - playlistDao : PlaylistDao
+
+    + UpdatePlaylistActivity(PlaylistDao playlistDao)
+    + handleRequest(UpdatePlaylistRequest updatePlaylistRequest, Context context) : UpdatePlaylistResult
+}
+
+UpdatePlaylistActivity ..|> RequestHandler
+
+class AlbumTrack {
+    - @DynamoDBHashKey asin : String
+    - @DynamoDBRangeKey trackNumber : Integer
+    - albumName : String
+    - songTitle : String
+}
+
+AlbumTrack o-- Playlist
+
+class Playlist {
+    - @DynamoDBHashKey id : String
+    - name : String
+    - customerId : String
+    - songCount : Integer
+    - tags : Set<String>
+    - songList : List<AlbumTrack>
+}
+
+class AlbumTrackDao {
+    - dynamoDbMapper : DynamoDBMapper
+
+    + AlbumTrackDao(DynamoDBMapper dynamoDbMapper)
+}
+
+AlbumTrackDao --o AddSongToPlaylistActivity
+
+class PlaylistDao {
+    - dynamoDbMapper : DynamoDBMapper
+
+    + PlaylistDao(DynamoDBMapper dynamoDbMapper)
+    + getPlaylist(String id) : Playlist
+}
+
+PlaylistDao --o AddSongToPlaylistActivity
+PlaylistDao --o CreatePlaylistActivity
+PlaylistDao --o GetPlaylistActivity
+PlaylistDao --o GetPlaylistSongsActivity
+PlaylistDao --o UpdatePlaylistActivity
+
+class AlbumTrackNotFoundException {
+    - serialVersionUID : long
+
+    + AlbumTrackNotFoundException
+    + AlbumTrackNotFoundException(String message)
+    + AlbumTrackNotFoundException(Throwable cause)
+    + AlbumTrackNotFoundException(String message, Throwable cause)
+}
+
+AlbumTrackNotFoundException --|> RuntimeException
+
+class InvalidAttributeValueException {
+    - serialVersionUID : long
+
+    + InvalidAttributeValueException
+    + InvalidAttributeValueException(String message)
+    + InvalidAttributeValueException(Throwable cause)
+    + InvalidAttributeValueException(String message, Throwable cause)
+}
+
+InvalidAttributeValueException --|> RuntimeException
+
+class PlaylistNotFoundException {
+    - serialVersionUID : long
+
+    + PlaylistNotFoundException
+    + PlaylistNotFoundException(String message)
+    + PlaylistNotFoundException(Throwable cause)
+    + PlaylistNotFoundException(String message, Throwable cause)
+}
+
+PlaylistNotFoundException --|> RuntimeException
+@enduml
