@@ -123,4 +123,15 @@ class PlaylistNotFoundException {
 }
 
 PlaylistNotFoundException --|> RuntimeException
+
+class InvalidAttributeChangeException {
+    - serialVersionUID : long
+
+    + InvalidAttributeChangeException
+    + InvalidAttributeChangeException(String message)
+    +InvalidAttributeChangeException(Throwable cause)
+    +InvalidAttributeChangeException(String message, Throwable cause)
+}
+
+InvalidAttributeChangeException --|> RuntimeException
 @enduml

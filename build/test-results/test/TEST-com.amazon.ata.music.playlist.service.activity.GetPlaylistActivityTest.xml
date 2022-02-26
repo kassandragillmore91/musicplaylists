@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.amazon.ata.music.playlist.service.activity.GetPlaylistActivityTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-26T20:17:36" hostname="LAPTOP-0NRDJM4M" time="0.049">
+  <properties/>
+  <testcase name="handleRequest_savedPlaylistFound_returnsPlaylistModelInResult()" classname="com.amazon.ata.music.playlist.service.activity.GetPlaylistActivityTest" time="0.049"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

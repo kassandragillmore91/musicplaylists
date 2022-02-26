@@ -13,9 +13,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2a51e1d-6031-496e-aabf-94eb04ecfe59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/bd-working-with-databases-music-playlist-service-kassandragillmore91.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+    <list default="true" id="b2a51e1d-6031-496e-aabf-94eb04ecfe59" name="Default Changelist" comment="sprint 1 test pass">
+      <change afterPath="$PROJECT_DIR$/build/generated/source/apt/main/com/amazon/ata/music/playlist/service/activity/UpdatePlaylistActivity_Factory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
@@ -26,71 +25,67 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibrariesAndUtilities/LessonPlanResources/build/classes/java/test/com/amazon/ata/resources/debugging/dependencies/AmazonIdentityServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/LibrariesAndUtilities/LessonPlanResources/build/classes/java/test/com/amazon/ata/resources/debugging/dependencies/AmazonIdentityServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibrariesAndUtilities/LessonPlanResources/build/classes/java/test/com/amazon/ata/resources/debugging/dependencies/AmazonProductServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/LibrariesAndUtilities/LessonPlanResources/build/classes/java/test/com/amazon/ata/resources/debugging/dependencies/AmazonProductServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibrariesAndUtilities/LessonPlanResources/build/classes/java/test/com/amazon/stock/StockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/LibrariesAndUtilities/LessonPlanResources/build/classes/java/test/com/amazon/stock/StockTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibrariesAndUtilities/LessonPlanResources/build/libs/LessonPlanResources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/LibrariesAndUtilities/LessonPlanResources/build/libs/LessonPlanResources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibrariesAndUtilities/LessonPlanResources/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LibrariesAndUtilities/LessonPlanResources/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DESIGN_DOCUMENT.md" beforeDir="false" afterPath="$PROJECT_DIR$/DESIGN_DOCUMENT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/activity/AddSongToPlaylistActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/activity/AddSongToPlaylistActivity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/activity/CreatePlaylistActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/activity/CreatePlaylistActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/activity/GetPlaylistActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/activity/GetPlaylistActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/activity/GetPlaylistSongsActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/activity/GetPlaylistSongsActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/activity/UpdatePlaylistActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/activity/UpdatePlaylistActivity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/converters/ModelConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/converters/ModelConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/dependency/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/dynamodb/AlbumTrackDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/dynamodb/AlbumTrackDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/dynamodb/PlaylistDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/dynamodb/PlaylistDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/dynamodb/models/AlbumTrack.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/dynamodb/models/AlbumTrack.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/dynamodb/models/Playlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/dynamodb/models/Playlist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/exceptions/InvalidAttributeValueException.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/exceptions/InvalidAttributeValueException.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/lambda/AddSongToPlaylistActivityProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/lambda/AddSongToPlaylistActivityProvider.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/lambda/CreatePlaylistActivityProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/lambda/CreatePlaylistActivityProvider.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/lambda/GetPlaylistActivityProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/lambda/GetPlaylistActivityProvider.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/lambda/GetPlaylistSongsActivityProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/lambda/GetPlaylistSongsActivityProvider.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/lambda/UpdatePlaylistActivityProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/lambda/UpdatePlaylistActivityProvider.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/models/PlaylistModel$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/models/PlaylistModel$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/models/PlaylistModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/amazon/ata/music/playlist/service/models/PlaylistModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/amazon/ata/music/playlist/service/activity/CreatePlaylistActivityTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/amazon/ata/music/playlist/service/activity/GetPlaylistActivityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/amazon/ata/music/playlist/service/activity/GetPlaylistActivityTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/amazon/ata/music/playlist/service/tct/MT1DesignClassDiagramIntrospectionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/amazon/ata/music/playlist/service/tct/MT1DesignClassDiagramIntrospectionTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/amazon/ata/music/playlist/service/tct/MT1DesignSequenceDiagramIntrospectionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/amazon/ata/music/playlist/service/tct/MT1DesignSequenceDiagramIntrospectionTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/amazon/ata/music/playlist/service/tct/MT2DesignIntrospectionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/amazon/ata/music/playlist/service/tct/MT2DesignIntrospectionTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/amazon/ata/music/playlist/service/tct/MT2IntrospectionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/amazon/ata/music/playlist/service/tct/MT2IntrospectionTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/amazon/ata/music/playlist/service/tct/MT3IntrospectionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/amazon/ata/music/playlist/service/tct/MT3IntrospectionTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/UnitProject.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/UnitProject.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/apt/main/com/amazon/ata/music/playlist/service/dependency/DaggerServiceComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/source/apt/main/com/amazon/ata/music/playlist/service/dependency/DaggerServiceComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/jacoco/test.exec" beforeDir="false" afterPath="$PROJECT_DIR$/build/jacoco/test.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.amazon.ata.music.playlist.service.activity.CreatePlaylistActivityTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.amazon.ata.music.playlist.service.tct.MT1DesignClassDiagramIntrospectionTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.amazon.ata.music.playlist.service.tct.MT1DesignClassDiagramIntrospectionTests.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.amazon.ata.music.playlist.service.activity.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/documentation/APIGatewayLambdaSequenceDiagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/documentation/APIGatewayLambdaSequenceDiagram.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/documentation/AWSManagementConsole.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/documentation/CloudWatchConsoleLogGroups.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/documentation/CloudWatchConsoleLogStreams.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/documentation/CloudWatchConsoleLogs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/documentation/CloudWatchSearchAWSManagementConsole.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/documentation/ConduitAccountPage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/documentation/DynamoDBConsoleChangeToText.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/documentation/DynamoDBConsoleDashboard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/documentation/DynamoDBConsolePasteJSON.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/documentation/DynamoDBConsolePlaylistTableCreateButton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/documentation/DynamoDBConsolePlaylistTableItems.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/documentation/DynamoDBConsoleSuccessfulAdd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/documentation/DynamoDBConsoleTables.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/documentation/DynamoDBItemDelete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/documentation/DynamoDBSearchAWSManagementConsole.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.amazon.ata.music.playlist.service.tct.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.amazon.ata.music.playlist.service.tct.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/mastery-task-3-dagger-design-template.md" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/mastery-task-3-dagger-design-template.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/mastery-task1-music-playlist-CD.puml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/mastery-task1-music-playlist-CD.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.amazon.ata.music.playlist.service.activity.CreatePlaylistActivityTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.amazon.ata.music.playlist.service.tct.MT1DesignClassDiagramIntrospectionTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.amazon.ata.music.playlist.service.tct.MT1DesignClassDiagramIntrospectionTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/activity/AddSongToPlaylistActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/activity/AddSongToPlaylistActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/activity/CreatePlaylistActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/activity/CreatePlaylistActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/activity/GetPlaylistActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/activity/GetPlaylistActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/activity/GetPlaylistSongsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/activity/GetPlaylistSongsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/activity/UpdatePlaylistActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/activity/UpdatePlaylistActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/converters/ModelConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/converters/ModelConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/dependency/DaoModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/dependency/DaoModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/dependency/ServiceComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/dependency/ServiceComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/dynamodb/AlbumTrackDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/dynamodb/AlbumTrackDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/dynamodb/PlaylistDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/dynamodb/PlaylistDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/dynamodb/models/AlbumTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/dynamodb/models/AlbumTrack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/dynamodb/models/Playlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/dynamodb/models/Playlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/exceptions/InvalidAttributeChangeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/exceptions/InvalidAttributeChangeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/exceptions/InvalidAttributeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/exceptions/InvalidAttributeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/exceptions/InvalidAttributeValueException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/exceptions/InvalidAttributeValueException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/lambda/AddSongToPlaylistActivityProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/lambda/AddSongToPlaylistActivityProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/lambda/CreatePlaylistActivityProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/lambda/CreatePlaylistActivityProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/lambda/CreatePlaylistActivityProvider.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/lambda/GetPlaylistActivityProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/lambda/GetPlaylistActivityProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/lambda/GetPlaylistSongsActivityProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/lambda/GetPlaylistSongsActivityProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/lambda/UpdatePlaylistActivityProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/lambda/UpdatePlaylistActivityProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/models/PlaylistModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/ata/music/playlist/service/models/PlaylistModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/mastery-task-3-dagger-design-template.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/mastery-task-3-dagger-design-template.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/mastery-task1-music-playlist-CD.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/mastery-task1-music-playlist-CD.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tst/com/amazon/ata/music/playlist/service/activity/GetPlaylistActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tst/com/amazon/ata/music/playlist/service/activity/GetPlaylistActivityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tst/com/amazon/ata/music/playlist/service/activity/AddSongToPlaylistActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tst/com/amazon/ata/music/playlist/service/activity/AddSongToPlaylistActivityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tst/com/amazon/ata/music/playlist/service/activity/GetPlaylistSongsActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tst/com/amazon/ata/music/playlist/service/activity/GetPlaylistSongsActivityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tst/com/amazon/ata/music/playlist/service/activity/UpdatePlaylistActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tst/com/amazon/ata/music/playlist/service/activity/UpdatePlaylistActivityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tst/com/amazon/ata/music/playlist/service/helpers/AlbumTrackTestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/tst/com/amazon/ata/music/playlist/service/helpers/AlbumTrackTestHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tst/com/amazon/ata/music/playlist/service/helpers/PlaylistTestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/tst/com/amazon/ata/music/playlist/service/helpers/PlaylistTestHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,11 +127,20 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="21vHYpLqLuiydL4XPteBarXTOfE" />
   <component name="ProjectLevelVcsManager">
@@ -183,7 +187,7 @@
       <recent name="com.amazon.ata.music.playlist.service.helper" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MT1DesignSequenceDiagramIntrospectionTests">
+  <component name="RunManager" selected="Gradle.Tests in 'UnitProject.test'">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -195,12 +199,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreatePlaylistActivityTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AddSongToPlaylistActivityTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.amazon.ata.music.playlist.service.activity.CreatePlaylistActivityTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.amazon.ata.music.playlist.service.activity.AddSongToPlaylistActivityTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -216,12 +220,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GetPlaylistActivityTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GetPlaylistSongsActivityTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.amazon.ata.music.playlist.service.activity.GetPlaylistActivityTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.amazon.ata.music.playlist.service.activity.GetPlaylistSongsActivityTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -237,33 +241,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MT1DesignClassDiagramIntrospectionTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MT3IntrospectionTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.amazon.ata.music.playlist.service.tct.MT1DesignClassDiagramIntrospectionTests&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MT1DesignSequenceDiagramIntrospectionTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.amazon.ata.music.playlist.service.tct.MT1DesignSequenceDiagramIntrospectionTests&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.amazon.ata.music.playlist.service.tct.MT3IntrospectionTests&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -300,12 +283,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PlaylistDaoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'UnitProject.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.amazon.ata.music.playlist.service.dynamodb.PlaylistDaoTest&quot;" />
+        <option name="scriptParameters" value="--tests *" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -321,22 +304,34 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration default="true" type="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <option name="AUTO_RESTART" value="false" />
+    <configuration name="UpdatePlaylistActivityTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.amazon.ata.music.playlist.service.activity.UpdatePlaylistActivityTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MT1DesignSequenceDiagramIntrospectionTests" />
-        <item itemvalue="Gradle.GetPlaylistActivityTest" />
-        <item itemvalue="Gradle.MT1DesignClassDiagramIntrospectionTests" />
-        <item itemvalue="Gradle.CreatePlaylistActivityTest" />
-        <item itemvalue="Gradle.PlaylistDaoTest" />
+        <item itemvalue="Gradle.Tests in 'UnitProject.test'" />
+        <item itemvalue="Gradle.MT3IntrospectionTests" />
+        <item itemvalue="Gradle.GetPlaylistSongsActivityTest" />
+        <item itemvalue="Gradle.AddSongToPlaylistActivityTest" />
+        <item itemvalue="Gradle.UpdatePlaylistActivityTest" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +351,26 @@
       <workItem from="1642203942441" duration="4481000" />
       <workItem from="1642613159018" duration="3277000" />
       <workItem from="1642722031952" duration="10019000" />
+      <workItem from="1644868880693" duration="1570000" />
+      <workItem from="1645140826701" duration="1718000" />
+      <workItem from="1645400729034" duration="5213000" />
+      <workItem from="1645462846349" duration="2847000" />
+      <workItem from="1645468037332" duration="2338000" />
+      <workItem from="1645474684109" duration="692000" />
+      <workItem from="1645629007118" duration="25404000" />
+      <workItem from="1645715068856" duration="541000" />
+      <workItem from="1645721445043" duration="5745000" />
+      <workItem from="1645823688585" duration="7528000" />
+      <workItem from="1645899276772" duration="5332000" />
     </task>
+    <task id="LOCAL-00001" summary="sprint 1 test pass">
+      <created>1644869115252</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644869115252</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +381,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="sprint1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -376,5 +402,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="sprint 1 test pass" />
+    <option name="LAST_COMMIT_MESSAGE" value="sprint 1 test pass" />
   </component>
 </project>

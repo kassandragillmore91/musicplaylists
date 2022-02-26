@@ -121,8 +121,8 @@ public class PlaylistModel {
             return this;
         }
 
-        public Builder withTags(Set<String> tagsToUse) {
-            this.tags = new ArrayList<String>(tagsToUse);
+        public Builder withTags(List<String> tagsToUse) {
+            this.tags = tagsToUse;
             return this;
         }
 

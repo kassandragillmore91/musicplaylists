@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.amazon.ata.music.playlist.service.tct.MT1DesignSequenceDiagramIntrospectionTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2022-02-26T20:17:36" hostname="LAPTOP-0NRDJM4M" time="0.043">
+  <properties/>
+  <testcase name="[1] PlaylistNotFoundException" classname="com.amazon.ata.music.playlist.service.tct.MT1DesignSequenceDiagramIntrospectionTests" time="0.004"/>
+  <testcase name="[2] Playlist" classname="com.amazon.ata.music.playlist.service.tct.MT1DesignSequenceDiagramIntrospectionTests" time="0.001"/>
+  <testcase name="[1] getPlaylist" classname="com.amazon.ata.music.playlist.service.tct.MT1DesignSequenceDiagramIntrospectionTests" time="0.001"/>
+  <testcase name="[1] CreatePlaylistActivity" classname="com.amazon.ata.music.playlist.service.tct.MT1DesignSequenceDiagramIntrospectionTests" time="0.004"/>
+  <testcase name="[2] MusicPlaylistServiceUtils" classname="com.amazon.ata.music.playlist.service.tct.MT1DesignSequenceDiagramIntrospectionTests" time="0.002"/>
+  <testcase name="[3] PlaylistDao" classname="com.amazon.ata.music.playlist.service.tct.MT1DesignSequenceDiagramIntrospectionTests" time="0.001"/>
+  <testcase name="[1] InvalidAttributeValueException" classname="com.amazon.ata.music.playlist.service.tct.MT1DesignSequenceDiagramIntrospectionTests" time="0.001"/>
+  <testcase name="[2] String" classname="com.amazon.ata.music.playlist.service.tct.MT1DesignSequenceDiagramIntrospectionTests" time="0.001"/>
+  <testcase name="[1] GetPlaylistActivity" classname="com.amazon.ata.music.playlist.service.tct.MT1DesignSequenceDiagramIntrospectionTests" time="0.001"/>
+  <testcase name="[2] PlaylistDao" classname="com.amazon.ata.music.playlist.service.tct.MT1DesignSequenceDiagramIntrospectionTests" time="0.001"/>
+  <testcase name="[1] generatePlaylistId" classname="com.amazon.ata.music.playlist.service.tct.MT1DesignSequenceDiagramIntrospectionTests" time="0.001"/>
+  <testcase name="[2] savePlaylist" classname="com.amazon.ata.music.playlist.service.tct.MT1DesignSequenceDiagramIntrospectionTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

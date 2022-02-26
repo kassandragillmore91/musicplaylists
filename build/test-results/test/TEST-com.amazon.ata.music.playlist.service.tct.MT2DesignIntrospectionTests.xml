@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.amazon.ata.music.playlist.service.tct.MT2DesignIntrospectionTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-02-26T20:17:36" hostname="LAPTOP-0NRDJM4M" time="0.042">
+  <properties/>
+  <testcase name="[1] InvalidAttributeChangeException" classname="com.amazon.ata.music.playlist.service.tct.MT2DesignIntrospectionTests" time="0.002"/>
+  <testcase name="[2] AlbumTrackNotFoundException" classname="com.amazon.ata.music.playlist.service.tct.MT2DesignIntrospectionTests" time="0.002"/>
+  <testcase name="[3] InvalidAttributeValueException" classname="com.amazon.ata.music.playlist.service.tct.MT2DesignIntrospectionTests" time="0.001"/>
+  <testcase name="[4] PlaylistNotFoundException" classname="com.amazon.ata.music.playlist.service.tct.MT2DesignIntrospectionTests" time="0.001"/>
+  <testcase name="mt2Design_getClassDiagram_containsExpectedExceptionHierarchy()" classname="com.amazon.ata.music.playlist.service.tct.MT2DesignIntrospectionTests" time="0.033"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

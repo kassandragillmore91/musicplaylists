@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.amazon.ata.music.playlist.service.tct.MT3IntrospectionTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-02-26T20:17:36" hostname="LAPTOP-0NRDJM4M" time="0.396">
+  <properties/>
+  <testcase name="mt03_module_providesSingletonDynamoDbMapper()" classname="com.amazon.ata.music.playlist.service.tct.MT3IntrospectionTests" time="0.279"/>
+  <testcase name="mt03_appClass_deleted()" classname="com.amazon.ata.music.playlist.service.tct.MT3IntrospectionTests" time="0.025"/>
+  <testcase name="mt03_daggerClasses_correctlyAnnotated()" classname="com.amazon.ata.music.playlist.service.tct.MT3IntrospectionTests" time="0.066"/>
+  <testcase name="mt03_componentClass_providesActivityClasses()" classname="com.amazon.ata.music.playlist.service.tct.MT3IntrospectionTests" time="0.023"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

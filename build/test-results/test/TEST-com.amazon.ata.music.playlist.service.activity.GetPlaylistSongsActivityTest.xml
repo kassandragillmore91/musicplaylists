@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.amazon.ata.music.playlist.service.activity.GetPlaylistSongsActivityTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-02-26T20:17:36" hostname="LAPTOP-0NRDJM4M" time="0.027">
+  <properties/>
+  <testcase name="handleRequest_withShuffledSongOrder_returnsSongsInAnyOrder()" classname="com.amazon.ata.music.playlist.service.activity.GetPlaylistSongsActivityTest" time="0.008"/>
+  <testcase name="handleRequest_withDefaultSongOrder_returnsDefaultOrderedPlaylistSongs()" classname="com.amazon.ata.music.playlist.service.activity.GetPlaylistSongsActivityTest" time="0.003"/>
+  <testcase name="handleRequest_noMatchingPlaylistId_throwsPlaylistNotFoundException()" classname="com.amazon.ata.music.playlist.service.activity.GetPlaylistSongsActivityTest" time="0.003"/>
+  <testcase name="handleRequest_playlistExistsWithSongs_returnsSongsInPlaylist()" classname="com.amazon.ata.music.playlist.service.activity.GetPlaylistSongsActivityTest" time="0.002"/>
+  <testcase name="handleRequest_playlistExistsWithoutSongs_returnsEmptyList()" classname="com.amazon.ata.music.playlist.service.activity.GetPlaylistSongsActivityTest" time="0.003"/>
+  <testcase name="handleRequest_withReversedSongOrder_returnsReversedPlaylistSongs()" classname="com.amazon.ata.music.playlist.service.activity.GetPlaylistSongsActivityTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

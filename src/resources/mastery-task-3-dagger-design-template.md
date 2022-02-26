@@ -50,7 +50,7 @@ List the class(es) that `App.java` creates that we must provide in a Dagger modu
 
 List the class(es) that `App.java` creates as Singletons.
 
-* 
+* DynamoDBMapper
 
 ### Pseudocode Dagger classes
 
@@ -60,8 +60,8 @@ your module, `DaoModule`, as indicated below. Use these names in
 your implementation as well)
 
 ```
-@______
-@______(______ = {______.class})
+@Singleton
+@Component(______ = {______.class})
 public interface ServiceComponent {
     ______ provide______();
 

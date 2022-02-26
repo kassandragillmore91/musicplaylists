@@ -1,5 +1,10 @@
 package com.amazon.ata.music.playlist.service.activity;
 
+import com.amazon.ata.music.playlist.service.converters.ModelConverter;
+import com.amazon.ata.music.playlist.service.dynamodb.models.AlbumTrack;
+import com.amazon.ata.music.playlist.service.dynamodb.models.Playlist;
+import com.amazon.ata.music.playlist.service.exceptions.AlbumTrackNotFoundException;
+import com.amazon.ata.music.playlist.service.exceptions.PlaylistNotFoundException;
 import com.amazon.ata.music.playlist.service.models.requests.AddSongToPlaylistRequest;
 import com.amazon.ata.music.playlist.service.models.results.AddSongToPlaylistResult;
 import com.amazon.ata.music.playlist.service.models.SongModel;
@@ -11,7 +16,10 @@ import com.amazonaws.services.lambda.runtime.RequestHandler;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import javax.inject.Inject;
+import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 /**
  * Implementation of the AddSongToPlaylistActivity for the MusicPlaylistService's AddSongToPlaylist API.
@@ -29,6 +37,7 @@ public class AddSongToPlaylistActivity implements RequestHandler<AddSongToPlayli
      * @param playlistDao PlaylistDao to access the playlist table.
      * @param albumTrackDao AlbumTrackDao to access the album_track table.
      */
+    @Inject
     public AddSongToPlaylistActivity(PlaylistDao playlistDao, AlbumTrackDao albumTrackDao) {
         this.playlistDao = playlistDao;
         this.albumTrackDao = albumTrackDao;
@@ -53,8 +62,38 @@ public class AddSongToPlaylistActivity implements RequestHandler<AddSongToPlayli
     public AddSongToPlaylistResult handleRequest(final AddSongToPlaylistRequest addSongToPlaylistRequest, Context context) {
         log.info("Received AddSongToPlaylistRequest {} ", addSongToPlaylistRequest);
 
+        String asin = addSongToPlaylistRequest.getAsin();
+        String playlistId = addSongToPlaylistRequest.getId();
+        Integer trackNumber = addSongToPlaylistRequest.getTrackNumber();
+        boolean isQueueNext = addSongToPlaylistRequest.isQueueNext();
+
+        if (playlistId == null) {
+            throw new PlaylistNotFoundException("This playlist does not exist.");
+        } else if (asin == null) {
+            throw new AlbumTrackNotFoundException("This album track does not exist.");
+        }
+
+        Playlist playlist = playlistDao.getPlaylist(playlistId);
+
+        AlbumTrack songToAdd = albumTrackDao.getAlbumTrack(asin, trackNumber);
+
+        List<AlbumTrack> songList = playlist.getSongList();
+
+        if (!isQueueNext) {
+            songList.add(songToAdd);
+        } else {
+            songList.add(0, songToAdd);
+        }
+
+        playlist.setSongList(songList);
+        playlist.setSongCount(songList.size());
+        playlist = playlistDao.savePlaylist(playlist);
+
+        List<SongModel> songModels = new ModelConverter().toSongModelList(playlist.getSongList());
+
+
         return AddSongToPlaylistResult.builder()
-                .withSongList(Collections.singletonList(new SongModel()))
+                .withSongList(songModels)
                 .build();
     }
 }
